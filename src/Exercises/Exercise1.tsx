@@ -36,6 +36,8 @@ const processString = (str: string): string => {
   return `${str}. Liczba znaków: ${strLength} - ${strParityMsg}`;
 };
 
+// Zmień argument funkcji processString na opcjonalny, w przypadku braku argumentu funkcja zwraca string 'Nie podano argumentu'.
+
 function Exercise1() {
   return (
     <>
